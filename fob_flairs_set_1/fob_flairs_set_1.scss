@@ -1,0 +1,20 @@
+
+span[class*="flair-n"] {
+	height: 25px !important;
+	min-width: 25px;
+	line-height: 25px;
+	display: inline-block;
+	background: transparent url(%%fob-flairs-set-1%%) no-repeat;
+	background-size: 25px 575px;
+	border: none;
+	margin: 0 5px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+@for $i from 1 through 23 {
+	span[class*="flair-n"].flair-n#{$i} {
+		background-position: 0 (-($i - 1) * 25#{px});
+	}
+}

@@ -1,0 +1,68 @@
+
+span[class*="flair-d"] {
+	height: 25px !important;
+	min-width: 47px;
+	line-height: 25px;
+	display: inline-block;
+	background: transparent url(%%deluxe-spritesheet%%) no-repeat;
+	background-size: 47px 299px;
+	border: none;
+	margin: 0 5px;
+
+	&:before, .side &:before {
+		margin-left: 28px;
+	}
+}
+
+span[class*="flair-d"].flair-d1 {
+	background-position: 0 0;
+}
+
+span[class*="flair-d"].flair-d2 {
+	background-position: 0 -25px;
+}
+
+span[class*="flair-d"].flair-d3 {
+	background-position: 0 -50px;
+}
+
+span[class*="flair-d"].flair-d4 {
+	background-position: 0 -75px;
+}
+
+span[class*="flair-d"].flair-d5 {
+	background-position: 0 -100px;
+}
+
+span[class*="flair-d"].flair-d6 {
+	background-position: 0 -125px;
+}
+
+span[class*="flair-d"].flair-d7 {
+	background-position: 0 -150px;
+}
+
+span[class*="flair-d"].flair-d8 {
+	height: 33px !important;
+	margin-top: -8px;
+	background-position: 0 -175px;
+}
+
+span[class*="flair-d"].flair-d9 {
+	height: 31px !important;
+	margin-bottom: -3px;
+	margin-top: -4px;
+	background-position: 0 -208px;
+}
+
+span[class*="flair-d"].flair-d10 {
+	height: 29px !important;
+	margin-bottom: -4px;
+	background-position: 0 -239px;
+}
+
+span[class*="flair-d"].flair-d11 {
+	height: 31px !important;
+	margin-top: -6px;
+	background-position: 0 -268px;
+}
